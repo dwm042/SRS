@@ -1,0 +1,14 @@
+This is code associated with a pair of articles on http://codeandfootball.wordpress.com.
+
+This Perl module implements the simple ranking system algorithm as described by Doug Drinen. 
+That algorithm is described here: 
+
+http://www.pro-football-reference.com/blog/?p=37
+
+There are three flavors, for which we only recommend the iterative
+solution for the typical user, as the actual equation tends to yield matrices that are
+singular. This module requires both Math::MatrixReal and PDL to function. It is quite
+raw and intended for illustrative purposes. Read the code, use it if you wish, use it
+in production at your own risk.
+
+David Myers.
